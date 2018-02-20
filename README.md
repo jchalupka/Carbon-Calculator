@@ -5,7 +5,7 @@
 - [x] Detailed Mock of the Screen
 - [x] Divide The App Into Components
 - [x] List State and Actions For Each Component
-- [ ] Create Action Creators For Each Action
+- [x] Create Action Creators For Each Action
 - [ ] Write Reducers for Each Action
 - [ ] Implement Every Presentational Component
 - [ ] Create Container Components For Some/All Presentational Componants
