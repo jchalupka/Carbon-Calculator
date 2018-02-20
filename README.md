@@ -2,8 +2,8 @@
 
 ## Planning ([8 Steps to Create a React Redux App](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a))
 
-- [ ] Detailed Mock of the Screen
-- [ ] Divide The App Into Components
+- [x] Detailed Mock of the Screen
+- [x] Divide The App Into Components
 - [ ] List State and Actions For Each Component
 - [ ] Create Action Creators For Each Action
 - [ ] Write Reducers for Each Action
