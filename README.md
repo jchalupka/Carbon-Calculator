@@ -6,7 +6,7 @@
 - [x] Divide The App Into Components
 - [x] List State and Actions For Each Component
 - [x] Create Action Creators For Each Action
-- [ ] Write Reducers for Each Action
+- [x] Write Reducers for Each Action
 - [ ] Implement Every Presentational Component
 - [ ] Create Container Components For Some/All Presentational Componants
 - [ ] Bring Them All Together
