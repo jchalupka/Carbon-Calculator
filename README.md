@@ -1,4 +1,4 @@
-# Gas Price Calculator
+# Carbon-Calculator
 
 ## Planning ([8 Steps to Create a React Redux App](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a))
 
