@@ -1,3 +1,5 @@
+import actionTypes from './actionTypes.js'
+
 let nextStartLocationId = 0;
 let nextEndLocationId = 0;
 
@@ -5,7 +7,7 @@ let nextEndLocationId = 0;
 export const updateStartLocation = (locationText) => {
   nextStartLocationId += 1;
   return {
-    type: 'UPDATE_START_LOCATION',
+    type: actionTypes.updateStartLocation,
     id: nextStartLocationId,
     startLocation: locationText,
   };
@@ -15,17 +17,17 @@ export const updateStartLocation = (locationText) => {
 export const updateEndLocation = (locationText) => {
   nextEndLocationId += 1;
   return {
-    type: 'UPDATE_END_LOCATION',
+    type: actionTypes.updateEndLocation,
     id: nextEndLocationId,
     endLocation: locationText,
   };
 };
 
-// Takes the text from StartLocation and Endloaction
-// and updates the Google Maps window to display the route
-export const updateGoogleMaps = (startLocation, endLocation) =>
+// Takes the text from StartLocation and EndLocation
+// and updates the Map window to display the route
+export const updateMap = (startLocation, endLocation) =>
   ({
-    type: 'UPDATE_GOOGLE_MAPS',
+    type: actionTypes.updateMap,
     startLocation,
     endLocation,
   });
